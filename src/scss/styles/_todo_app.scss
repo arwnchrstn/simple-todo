@@ -1,0 +1,45 @@
+.todo-wrapper {
+  min-height: 100vh;
+}
+
+.todo-container__contents {
+  overflow: hidden;
+  position: relative;
+
+  .todo-container__header {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+}
+
+.todo-row {
+  &:hover {
+    background-color: rgba(128, 128, 128, 0.05);
+
+    .delete-todo {
+      display: block !important;
+      cursor: pointer;
+    }
+  }
+}
+
+.filter-nav {
+  font-size: clamp(14px, 1vw, 15px);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.dark-theme {
+  @extend .text-light;
+  @extend .bg-dark;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.light-theme {
+  @extend .text-dark;
+  @extend .bg-light;
+  transition: background-color 0.3s ease-in-out;
+}

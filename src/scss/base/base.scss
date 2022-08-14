@@ -1,0 +1,14 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+li {
+  list-style: none;
+}
