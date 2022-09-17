@@ -2,7 +2,7 @@
 
 ## Features
 
-- Add and delete todos
+- Add, delete, update todo status
 - Filter todos (pending and completed)
 - Change from light mode to dark mode
 
